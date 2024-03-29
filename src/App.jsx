@@ -80,7 +80,7 @@ const App = () => {
                 value={first}
                 onChange={e => setfirst(e.target.value)}
                 className="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none"
-                type="text" placeholder="Add a task" />
+                type="text" placeholder="Add a note" />
 
                 {!show ? (
                    <button
@@ -120,7 +120,7 @@ const App = () => {
 
           </div> ))
          : <div>
-          <h1 className='font-semibold m-2 text-xl'>No task found</h1>
+          <h1 className='font-semibold m-2 text-xl'>No notes found</h1>
          </div> } 
 
        </div>
